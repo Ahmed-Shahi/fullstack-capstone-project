@@ -1,0 +1,47 @@
+curl -X GET http://localhost:3060/api/gifts
+
+Output:
+[
+  {
+    "_id": "65de12345678909876543210",
+    "id": "875",
+    "name": "Lamp",
+    "category": "Kitchen",
+    "condition": "New",
+    "posted_by": "26872",
+    "zipcode": "94805",
+    "date_added": 1693267200,
+    "age_days": 400,
+    "age_years": 1.1,
+    "description": "A charming lamp that's been lighting up my reading nook...",
+    "image": "/images/lamp.jpeg"
+  },
+  {
+    "_id": "65de12345678909876543211",
+    "id": "396",
+    "name": "Curtain",
+    "category": "Office",
+    "condition": "Older",
+    "posted_by": "26872",
+    "zipcode": "94504",
+    "date_added": 1686960000,
+    "age_days": 1073,
+    "age_years": 2.94,
+    "description": "Elegant, flowy curtains that have graced my living room windows...",
+    "image": "/images/curtains1.jpeg"
+  },
+  {
+    "_id": "65de12345678909876543212",
+    "id": "812",
+    "name": "Bookshelf",
+    "category": "Office",
+    "condition": "Like New",
+    "posted_by": "26872",
+    "zipcode": "94172",
+    "date_added": 1692403200,
+    "age_days": 1053,
+    "age_years": 2.88,
+    "description": "This sturdy, well-loved bookshelf has been my literary companion...",
+    "image": "/images/bookshelf3.jpeg"
+  }
+]

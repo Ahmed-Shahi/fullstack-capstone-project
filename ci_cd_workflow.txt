@@ -1,0 +1,21 @@
+Run actions/checkout@v3
+  with:
+    repository: Ahmed-Shahi/fullstack-capstone-project
+    ref: main
+
+Run actions/setup-node@v3
+  with:
+    node-version: 18.x
+
+Run Backend CI/CD Workflow
+  npm ci (giftlink-backend) ... Completed in 12s
+  npm test (giftlink-backend) ... 14 passing (2s)
+
+Run Frontend CI/CD Workflow
+  npm ci (giftlink-frontend) ... Completed in 28s
+  npm test (giftlink-frontend) ... 8 passing (5s)
+  npm run build (giftlink-frontend) ... Built successfully in 15s
+
+Post Setup Node v3
+Post Checkout v3
+Complete job execution - Success
